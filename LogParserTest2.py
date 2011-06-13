@@ -111,7 +111,7 @@ QA Team
  
     server = smtplib.SMTP(HOST)
     server.starttls()
-    server.login(FROM,'hayagriv')
+    server.login(FROM,'')
      
     try:
         failed = server.sendmail(FROM, TO, msg.as_string())
